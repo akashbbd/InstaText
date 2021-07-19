@@ -1,0 +1,55 @@
+.imageupload{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* position: fixed; */
+    /* background-color: white;
+    border-top: 1px solid lightgray; */
+
+    
+}
+.image_progress{
+    width: 100%;
+}
+
+.app{
+    background-color: #fafafa;
+}
+
+.app_Posts{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.app_postsRight{
+    margin-left: 20px;
+
+}
+
+.app_header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    object-fit: contain;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app_signup{
+    display: flex;
+    flex-direction: column;
+}
+
+.app_headerImage{
+    object-fit: contain;
+}
+
